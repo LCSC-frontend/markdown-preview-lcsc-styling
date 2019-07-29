@@ -1,0 +1,22 @@
+.vscode-body {
+  background-color: #fff;
+}
+.vscode-body h1, .vscode-body h2, .vscode-body h3, .vscode-body h4, .vscode-body h5, .vscode-body h6, .vscode-body strong {
+  font-weight: bold;
+  color: #444;
+}
+.vscode-body h1 {
+  font-size: 20px;
+}
+.vscode-body h2, .vscode-body p {
+  font-size: 16px;
+}
+.vscode-body h3, .vscode-body h4, .vscode-body h5, .vscode-body h6 {
+  font-size: 14px;
+}
+.vscode-body a {
+  color: #0094e7;
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=style.css.map */

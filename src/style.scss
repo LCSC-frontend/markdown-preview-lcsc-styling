@@ -1,0 +1,30 @@
+$color-white: #fff;
+$color-black: #000;
+$color-text-primary: #444;
+$color-text-light: #666;
+$color-text-link: #0094e7;
+
+$size-text-primary: 16px;
+$size-text-large: 20px;
+$size-text-small: 14px;
+
+.vscode-body {
+    background-color: $color-white;
+    h1, h2, h3, h4, h5, h6 {
+        color: $color-text-primary;
+        font-weight: bold;
+    }
+    h1 {
+        font-size: $size-text-large;
+    }
+    h2, p {
+        font-size: $size-text-primary;
+    }
+    h3, h4, h5, h6 {
+        font-size: $size-text-small;
+    }
+    a {
+        color: $color-text-link;
+        text-decoration: underline;
+    }
+}
