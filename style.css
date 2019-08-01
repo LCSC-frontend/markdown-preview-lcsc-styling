@@ -1,22 +1,83 @@
+@charset "UTF-8";
 .vscode-body {
+  font-family: "Microsoft YaHei", "微软雅黑", Arial;
   background-color: #fff;
 }
-.vscode-body h1, .vscode-body h2, .vscode-body h3, .vscode-body h4, .vscode-body h5, .vscode-body h6, .vscode-body strong {
-  font-weight: bold;
+.vscode-body h1, .vscode-body h2, .vscode-body h3, .vscode-body h4, .vscode-body h5, .vscode-body h6 {
   color: #444;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 0;
+  margin-right: 0;
 }
 .vscode-body h1 {
+  font-size: 26px;
+  margin-bottom: 50px;
+  border: 0;
+}
+.vscode-body h2 {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.vscode-body h3 {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+.vscode-body h4 {
   font-size: 20px;
+  margin-bottom: 30px;
 }
-.vscode-body h2, .vscode-body p {
+.vscode-body h5 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.vscode-body h6 {
   font-size: 16px;
+  margin-bottom: 30px;
 }
-.vscode-body h3, .vscode-body h4, .vscode-body h5, .vscode-body h6 {
-  font-size: 14px;
+.vscode-body blockquote {
+  box-sizing: border-box;
+  border-left: 6px solid #B5B6B6;
+  background-color: #F7F7F7;
+  margin: 0;
+  padding: 0 20px;
+}
+.vscode-body hr {
+  border: 0;
+  height: 2px;
+  border-bottom: 1px solid #B5B6B6;
+}
+.vscode-body p {
+  color: #444;
+  font-size: 16px;
+  line-height: 28px;
+  margin-bottom: 28px;
 }
 .vscode-body a {
   color: #0094e7;
   text-decoration: underline;
+}
+.vscode-body s {
+  color: #999;
+}
+.vscode-body table, .vscode-body th, .vscode-body td {
+  border: 1px solid #E9E9E9 !important;
+}
+.vscode-body table {
+  border-collapse: collapse;
+  background-color: #fff;
+}
+.vscode-body th {
+  color: 16px !important;
+  background-color: #F7F7F7;
+  font-weight: bold;
+}
+.vscode-body td {
+  color: #666 !important;
+}
+.vscode-body ol li, .vscode-body ul li {
+  font-size: 16px;
+  color: #444;
 }
 
 /*# sourceMappingURL=style.css.map */
