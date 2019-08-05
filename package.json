@@ -11,10 +11,11 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:extension.helloWorld"
+		"onLanguage:markdown"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
+		"markdown.markdownItPlugins": true,
 		"markdown.previewStyles": [
 			"./style.css"
 		]
@@ -40,6 +41,8 @@
 		"vscode-test": "^1.0.2"
 	},
 	"dependencies": {
+		"markdown-it-attrs": "^3.0.0",
+		"markdown-it-bracketed-spans": "^1.0.1",
 		"sass": "^1.22.7"
 	}
 }
