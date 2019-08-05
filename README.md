@@ -1,4 +1,4 @@
-# markdown-proview-lcsc-styling README
+# markdown-preview-lcsc-styling README
 
 Markdown preview with lcsc style.
 

@@ -1,7 +1,7 @@
 {
-	"name": "markdown-proview-lcsc-styling",
-	"displayName": "Markdown Proview Lcsc Styling",
-	"description": "Markdown Proview Lcsc Styling",
+	"name": "markdown-preview-lcsc-styling",
+	"displayName": "Markdown Preview Lcsc Styling",
+	"description": "Markdown Preview Lcsc Styling",
 	"publisher": "lcsc",
 	"version": "0.0.1",
 	"engines": {

@@ -74,23 +74,36 @@ $size-text-primary: 16px;
     s {
         color: $color-text-lighter;
     }
-    table, th, td {
-        border: 1px solid $color-border!important;
-    }
     table {
         border-collapse: collapse;
         background-color: $color-white;
-    }
-    th {
-        color: $size-text-primary!important;
-        background-color: $color-background;
-        font-weight: bold;
-    }
-    td {
-        color: $color-text-light!important;
+        border: 1px solid $color-border;
+        > thead {
+            > tr{
+                > th {
+                    color: $color-text-primary;
+                    background-color: $color-background;
+                    font-weight: bold;
+                    border: 1px solid $color-border!important;
+                }
+            }
+        }
+        > tbody {
+            > tr {
+                > td {
+                    color: $color-text-light;
+                    border: 1px solid $color-border;
+                }
+                + tr {
+                    > td {
+                        border: 1px solid $color-border;
+                    }
+                }
+            }
+        }
     }
     ol, ul {
-        li {
+        > li {
             font-size: $size-text-primary;
             color: $color-text-primary;
         }

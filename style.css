@@ -60,22 +60,25 @@
 .vscode-body s {
   color: #999;
 }
-.vscode-body table, .vscode-body th, .vscode-body td {
-  border: 1px solid #E9E9E9 !important;
-}
 .vscode-body table {
   border-collapse: collapse;
   background-color: #fff;
+  border: 1px solid #E9E9E9;
 }
-.vscode-body th {
-  color: 16px !important;
+.vscode-body table > thead > tr > th {
+  color: #444;
   background-color: #F7F7F7;
   font-weight: bold;
+  border: 1px solid #E9E9E9 !important;
 }
-.vscode-body td {
-  color: #666 !important;
+.vscode-body table > tbody > tr > td {
+  color: #666;
+  border: 1px solid #E9E9E9;
 }
-.vscode-body ol li, .vscode-body ul li {
+.vscode-body table > tbody > tr + tr > td {
+  border: 1px solid #E9E9E9;
+}
+.vscode-body ol > li, .vscode-body ul > li {
   font-size: 16px;
   color: #444;
 }
