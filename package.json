@@ -1,21 +1,21 @@
 {
 	"name": "markdown-preview-lcsc-styling",
 	"displayName": "Markdown Preview Lcsc Styling",
-	"description": "Markdown Preview Lcsc Styling",
+	"description": "Markdown preview styling of Lcsc.Inc",
+	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#C80000",
+		"theme": "light"
+	},
 	"publisher": "lcsc",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.36.0"
 	},
 	"categories": [
 		"Other"
 	],
-	"activationEvents": [
-		"onLanguage:markdown"
-	],
-	"main": "./out/extension.js",
 	"contributes": {
-		"markdown.markdownItPlugins": true,
 		"markdown.previewStyles": [
 			"./style.css"
 		]
