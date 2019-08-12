@@ -13,6 +13,7 @@ $size-text-h3: 22px;
 $size-text-h4: 20px;
 $size-text-h5: 18px;
 $size-text-primary: 16px;
+$size-text-table: 14px;
 
 .vscode-body {
     font-family: "Microsoft YaHei" ,"微软雅黑", Arial;
@@ -75,9 +76,12 @@ $size-text-primary: 16px;
         color: $color-text-lighter;
     }
     table {
+        font-size: $size-text-table;
         border-collapse: collapse;
         background-color: $color-white;
         border: 1px solid $color-border;
+        width: auto;
+        max-width: 100%;
         margin-bottom: 28px;
         > thead {
             > tr{
@@ -86,6 +90,7 @@ $size-text-primary: 16px;
                     background-color: $color-background;
                     font-weight: bold;
                     border: 1px solid $color-border;
+                    padding: 14px;
                 }
             }
         }
@@ -94,6 +99,7 @@ $size-text-primary: 16px;
                 > td {
                     color: $color-text-light;
                     border: 1px solid $color-border;
+                    padding: 14px;
                 }
                 + tr {
                     > td {

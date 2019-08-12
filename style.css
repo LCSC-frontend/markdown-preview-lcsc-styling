@@ -61,9 +61,12 @@
   color: #999;
 }
 .vscode-body table {
+  font-size: 14px;
   border-collapse: collapse;
   background-color: #fff;
   border: 1px solid #E9E9E9;
+  width: auto;
+  max-width: 100%;
   margin-bottom: 28px;
 }
 .vscode-body table > thead > tr > th {
@@ -71,10 +74,12 @@
   background-color: #F7F7F7;
   font-weight: bold;
   border: 1px solid #E9E9E9;
+  padding: 14px;
 }
 .vscode-body table > tbody > tr > td {
   color: #666;
   border: 1px solid #E9E9E9;
+  padding: 14px;
 }
 .vscode-body table > tbody > tr + tr > td {
   border: 1px solid #E9E9E9;
