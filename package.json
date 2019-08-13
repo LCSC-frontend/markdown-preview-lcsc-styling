@@ -8,14 +8,17 @@
 		"theme": "light"
 	},
 	"publisher": "lcsc",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"engines": {
 		"vscode": "^1.36.0"
 	},
 	"categories": [
 		"Other"
 	],
+	"activationEvents": [],
+	"main": "./out/extension.js",
 	"contributes": {
+		"markdown.markdownItPlugins": true,
 		"markdown.previewStyles": [
 			"./style.css"
 		]
@@ -41,7 +44,7 @@
 		"vscode-test": "^1.0.2"
 	},
 	"dependencies": {
-		"markdown-it-attrs": "^3.0.0",
+		"markdown-it-attrs": "^2.4.1",
 		"markdown-it-bracketed-spans": "^1.0.1",
 		"sass": "^1.22.7"
 	}
